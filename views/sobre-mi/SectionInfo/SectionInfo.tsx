@@ -4,6 +4,7 @@ import * as St from './SectionInfo.styled'
 import 'twin.macro'
 import { variantsLeft } from '../../../animations'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export const SectionInfo = () => {
   return (
@@ -20,7 +21,9 @@ export const SectionInfo = () => {
 
       <St.Grid>
         <figure>
-          <img
+          <Image
+            width={600}
+            height={600}
             src="https://i.postimg.cc/q7r0Q7q6/about-us.png"
             alt="Fografia"
           />

@@ -5,6 +5,7 @@ import { BsArrowLeft } from 'react-icons/bs'
 import * as St from './ProyectosDetalle.styled'
 import 'twin.macro'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 interface Props {
   proyectos: proyectosProps
@@ -45,7 +46,12 @@ export const ProyectosDetalle: FC<Props> = ({ proyectos }) => {
           </motion.div>
         </St.Info>
         <St.Mockup>
-          <img src={proyectos.imgMockup} alt={proyectos.title} />
+          <Image
+            width={900}
+            height={900}
+            src={proyectos.imgMockup}
+            alt={proyectos.title}
+          />
         </St.Mockup>
       </St.RoleContent>
       <St.Item>
@@ -74,10 +80,20 @@ export const ProyectosDetalle: FC<Props> = ({ proyectos }) => {
       <St.Fondo>
         <St.MockupWeb>
           <figure>
-            <img src={proyectos.imgOne} alt={proyectos.title} />
+            <Image
+              width={700}
+              height={700}
+              src={proyectos.imgOne}
+              alt={proyectos.title}
+            />
           </figure>
           <figure>
-            <img src={proyectos.imgTwo} alt={proyectos.title} />
+            <Image
+              width={700}
+              height={700}
+              src={proyectos.imgTwo}
+              alt={proyectos.title}
+            />
           </figure>
 
           <St.Atras href="/" className="group">

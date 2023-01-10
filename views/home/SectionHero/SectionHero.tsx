@@ -4,6 +4,7 @@ import * as St from './SectionHero.styled'
 import 'twin.macro'
 import Typed, { TypedOptions } from 'typed.js'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export const SectionHero: FC = () => {
   const el = useRef<HTMLSpanElement>(null)
@@ -47,11 +48,14 @@ export const SectionHero: FC = () => {
           transition={{ duration: 0.6 }}
         />
         <St.ContainerGrid>
-          <St.Figure>
-            <motion.img
-              initial={{ rotate: -90, opacity: 0 }}
-              animate={{ rotate: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1 }}
+          <St.Figure
+            initial={{ rotate: -90, opacity: 0 }}
+            animate={{ rotate: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 1 }}
+          >
+            <Image
+              width={500}
+              height={500}
               src="https://i.postimg.cc/HsVzPRTG/Group-127.png"
               alt="Decoración"
               loading="lazy"

@@ -5,6 +5,7 @@ import 'twin.macro'
 import { Button } from '../' //Components
 import { motion } from 'framer-motion'
 import { variantsLeft } from '../../../animations'
+import Image from 'next/image'
 
 interface Props {
   img: string
@@ -34,7 +35,7 @@ export const Hero: FC<Props> = ({
             animate={{ scale: 1, translateX: 0 }}
             transition={{ duration: 1 }}
           >
-            <img src={img} alt={imgAlt} />
+            <Image width={500} height={500} src={img} alt={imgAlt} />
 
             <motion.div
               initial={{

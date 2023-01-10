@@ -4,7 +4,9 @@ import { motion } from 'framer-motion'
 export const Section = tw.section`bg-[linear-gradient(90deg, #070302 0%, #3C040B 101.09%, #EF0454 101.09%)] min-h-[100vh] relative overflow-hidden`
 export const ContainerGrid = tw.div`container grid  md:grid-cols-[max-content 1fr 1fr]
 min-h-[100vh]  relative gap-10 items-center pt-[110px] md:pt-[90px] pb-[40px] z-[1]`
-export const Figure = tw.figure`w-[75%] lg:w-[28rem] md:order-3 mx-auto`
+export const Figure = styled(motion.figure)`
+  ${tw`w-[75%] lg:w-[28rem] md:order-3 mx-auto`}
+`
 export const ColumnOne = tw.div`self-start md:self-center flex flex-col gap-7`
 export const H1 = tw.h1`text-white leading-[1]`
 export const ContentDes = tw.div`flex items-center gap-7`

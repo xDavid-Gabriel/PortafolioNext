@@ -6,6 +6,7 @@ import { FiltroBtn } from './FiltroBtn'
 import * as St from './SectionMasProyectos.styled'
 import { AnimatePresence, motion } from 'framer-motion'
 import { variantsLeft } from '../../../animations'
+import Image from 'next/image'
 
 interface Props {
   proyectosCategoria: proyectosCategoriaProps[]
@@ -44,7 +45,13 @@ export const SectionMasProyectosCategorias: FC<Props> = ({
                 layout
               >
                 <figure>
-                  <img tw="lg:h-[250px]" src={item.image} alt={item.title} />
+                  <Image
+                    width={500}
+                    height={500}
+                    tw="lg:h-[250px]"
+                    src={item.image}
+                    alt={item.title}
+                  />
                 </figure>
                 <St.CardBody>
                   <St.SpanTitle>{item.title}</St.SpanTitle>

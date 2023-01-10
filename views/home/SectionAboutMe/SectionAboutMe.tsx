@@ -3,6 +3,7 @@ import { Button } from '../../../components/ui'
 import * as St from './SectionAboutMe.styled'
 import { motion } from 'framer-motion'
 import { variantsLeft } from '../../../animations'
+import Image from 'next/image'
 
 export const SectionAboutMe = () => {
   return (
@@ -30,7 +31,12 @@ export const SectionAboutMe = () => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        <img src="https://i.postimg.cc/wMg0jfQM/about.png" alt="Sobre mi" />
+        <Image
+          width={500}
+          height={500}
+          src="https://i.postimg.cc/wMg0jfQM/about.png"
+          alt="Sobre mi"
+        />
 
         <motion.div
           initial={{

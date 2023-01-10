@@ -20,7 +20,12 @@ export const ProyectosHome: FC<Props> = ({ proyectos }) => {
           viewport={{ once: true }}
         >
           <St.Figure className="group">
-            <St.Imagenes src={item.image} alt={item.title} />
+            <St.Imagenes
+              width={500}
+              height={400}
+              src={item.image}
+              alt={item.title}
+            />
             {/* Contenido Desktop */}
             <St.ContentDes>
               <p>{item.funcion}</p>

@@ -3,6 +3,7 @@ import * as St from './SectionHabilidades.styled'
 import 'twin.macro'
 import { variantsLeft } from '../../../animations'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export const SectionHabilidades = () => {
   return (
@@ -24,6 +25,7 @@ export const SectionHabilidades = () => {
               src={image.img}
               alt={image.title}
               drag
+              loading="lazy"
               dragConstraints={{
                 top: -10,
                 left: -10,
