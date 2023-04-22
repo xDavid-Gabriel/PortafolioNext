@@ -14,6 +14,7 @@ const title = lastPart
   .replace(/\b\w/g, match => match.toUpperCase())
 
 console.log(title)
+
 export const schema = () => {
   const schemaPerson = useMemo(
     () => ({

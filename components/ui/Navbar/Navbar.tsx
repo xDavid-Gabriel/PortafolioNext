@@ -43,7 +43,7 @@ export const Navbar: FC = () => {
           </span>
         </button>
 
-        {/* ==== Mi Nav menu ====  */}
+        {/* ==== Mi Nav menu ==== */}
         <NavbarMenu showMenu={showMenu} setShowMenu={setShowMenu} />
         {/* ==== Cierra Mi Nav menu ====  */}
       </St.Nav>

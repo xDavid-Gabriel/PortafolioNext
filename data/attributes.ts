@@ -158,4 +158,12 @@ export const proyectosCategoria = [
     image: '/img/proyectos/frontendmentor-6.png',
     category: 'frontendmentor',
   },
+  {
+    id: 12,
+    title: 'Paz Amor y Esperanza',
+    href: 'https://pazamoryesperanza.com/',
+    link: 'Visitar sitio',
+    image: '/img/proyectos/pazamoryesperanza.png',
+    category: 'figma',
+  },
 ]
