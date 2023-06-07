@@ -2,8 +2,54 @@ export const proyectos = [
   {
     id: 1,
     funcion: 'Frontend',
-    title: 'Gold Gym',
+    title: 'Gaming',
     number: '01',
+    image: '/img/proyectos-detalle/tienda-de-juegos/tienda-de-juegos.png',
+    description:
+      'Gaming fue uno de mis proyectos favoritos debido a su emocionante temática.',
+    link: 'https://tienda-juegos.vercel.app/',
+    role: 'UI design / Codificación',
+    fecha: 'ABR 2023',
+    visionGeneral:
+      'Gaming ofrece una amplia selección de juegos emocionantes para jugadores de todas las edades. Con un enfoque en la diversión y la variedad, nos esforzamos por brindar una experiencia de compra fácil y satisfactoria. Explora nuestro catálogo, descubre nuevos títulos y sumérgete en el apasionante mundo de los videojuegos. ¡Únete a nosotros y haz que tus aventuras virtuales cobren vida!',
+    imgMockup: '/img/proyectos-detalle/tienda-de-juegos/ecomerce-mockup.png',
+    concepto:
+      'Nuestro concepto de tienda de videojuegos se basa en ofrecer una experiencia única para los amantes de los juegos. Nos enfocamos en brindar una cuidadosa selección de títulos populares, así como en promover el descubrimiento de juegos independientes y emocionantes. Además, nos esforzamos por crear un ambiente acogedor y amigable donde los jugadores puedan encontrar productos relacionados con sus juegos favoritos, conectarse con otros aficionados y explorar las últimas tendencias en la industria de los videojuegos. ¡Bienvenido a nuestro universo de diversión y entretenimiento virtual!',
+
+    desarrollo:
+      'Nuestra tienda de videojuegos está desarrollada utilizando tecnologías modernas y poderosas. Hemos utilizado React y Next.js en el frontend para crear una interfaz dinámica y rápida que brinda una experiencia fluida a nuestros usuarios. Para el backend, hemos optado por Strapi, una plataforma flexible y fácil de usar que nos permite gestionar eficientemente el contenido de la tienda. Además, hemos utilizado Tailwind CSS para estilizar nuestra aplicación, aprovechando su flexibilidad y eficiencia en el desarrollo de estilos. Estamos comprometidos en ofrecerte una tienda de videojuegos moderna, funcional y atractiva',
+    imgOne: '/img/proyectos-detalle/tienda-de-juegos/ecomerce-1.png',
+    imgTwo: '/img/proyectos-detalle/tienda-de-juegos/ecomerce-2.png',
+    delay: 0.9,
+  },
+  // {
+  //   id: 1,
+  //   funcion: 'Frontend',
+  //   title: 'Gaming',
+  //   number: '01',
+  //   image: '/img/proyectos-detalle/tienda-de-juegos/tienda-de-juegos.png',
+  //   description:
+  //     'La Tienda de Videojuegos fue uno de mis proyectos favoritos debido a su emocionante temática.',
+  //   link: 'https://xdavid-gabriel.github.io/Brawl-start-memori/',
+  //   role: 'UI design / Codificación',
+  //   fecha: 'OCT 2021',
+  //   visionGeneral:
+  //     'Inspirado en Brawl Stars, mi juego móvil favorito, desarrollé un divertido juego de memoria.',
+  //   imgMockup: '/img/proyectos-detalle/brawl-memori/mockup-brawl-memori.png',
+  //   concepto:
+  //     'Utilicé Brawl Stars como inspiración para el diseño y maquetación de mi propio juego de memoria',
+
+  //   desarrollo:
+  //     'Este proyecto de JavaScript te enseña los fundamentos del lenguaje de programación más popular del mundo, incluyendo variables, funciones, scope global y local, manejo de arrays, manejo del DOM y más. AprenDI a crear aplicaciones web dinámicas y atractivas sin depender de librerías externas, sólo utilizando JavaScript y CSS puro. Y asi ofrecer una experiencia de usuario excepcional.',
+  //   imgOne: '/img/proyectos-detalle/brawl-memori/brawl-memori-1.png',
+  //   imgTwo: '/img/proyectos-detalle/brawl-memori/brawl-memori-2.png',
+  //   delay: 0.9,
+  // },
+  {
+    id: 2,
+    funcion: 'Frontend',
+    title: 'Gold Gym',
+    number: '02',
     image: '/img/proyectos-detalle/golds-gym/golds-gym.png',
     description:
       'Uno de mis proyectos más gratificantes fue llevar a cabo Golds Gym',
@@ -23,10 +69,10 @@ export const proyectos = [
     delay: 0.3,
   },
   {
-    id: 2,
+    id: 3,
     funcion: 'Frontend',
     title: 'Dashboard',
-    number: '02',
+    number: '03',
     image: '/img/proyectos-detalle/dashboard/dashboard.png',
     description:
       'Mi objetivo al realizar este proyecto en React fue maximizar la reutilización de componentes',
@@ -44,29 +90,6 @@ export const proyectos = [
     imgOne: '/img/proyectos-detalle/dashboard/dashboard-1.png',
     imgTwo: '/img/proyectos-detalle/dashboard/dashboard-2.png',
     delay: 0.6,
-  },
-  {
-    id: 3,
-    funcion: 'Frontend',
-    title: 'Brawl Memori',
-    number: '03',
-    image: '/img/proyectos-detalle/brawl-memori/brawl-memori.png',
-    description:
-      'Brawl Memori fue uno de mis proyectos favoritos gracias a su divertida temática',
-    link: 'https://xdavid-gabriel.github.io/Brawl-start-memori/',
-    role: 'UI design / Codificación',
-    fecha: 'OCT 2021',
-    visionGeneral:
-      'Inspirado en Brawl Stars, mi juego móvil favorito, desarrollé un divertido juego de memoria.',
-    imgMockup: '/img/proyectos-detalle/brawl-memori/mockup-brawl-memori.png',
-    concepto:
-      'Utilicé Brawl Stars como inspiración para el diseño y maquetación de mi propio juego de memoria',
-
-    desarrollo:
-      'Este proyecto de JavaScript te enseña los fundamentos del lenguaje de programación más popular del mundo, incluyendo variables, funciones, scope global y local, manejo de arrays, manejo del DOM y más. AprenDI a crear aplicaciones web dinámicas y atractivas sin depender de librerías externas, sólo utilizando JavaScript y CSS puro. Y asi ofrecer una experiencia de usuario excepcional.',
-    imgOne: '/img/proyectos-detalle/brawl-memori/brawl-memori-1.png',
-    imgTwo: '/img/proyectos-detalle/brawl-memori/brawl-memori-2.png',
-    delay: 0.9,
   },
 ]
 export const proyectosCategoria = [

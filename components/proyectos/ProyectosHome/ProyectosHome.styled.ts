@@ -8,7 +8,7 @@ export const Cards = styled(motion.div)`
 export const Figure = tw.figure`relative overflow-hidden  before:(absolute w-full h-0  z-[1] bg-[linear-gradient(hsla(0,0%,9%,.06),#9f0036)]  opacity-[.85] transition-[height] bottom-0 duration-500 ease-out  hover:h-full) rounded-2xl shadow-lg`
 
 export const Imagenes = styled(Image)(
-  tw`[transition: transform 1.5s cubic-bezier(0,0,.2,1)] group-hover:[transform: scale3d(1.1,1.1,1.1)]`,
+  tw`[transition: transform 1.5s cubic-bezier(0,0,.2,1)] group-hover:[transform: scale3d(1.1,1.1,1.1)] h-[301px] object-top`,
 )
 
 export const ContentDes = tw.div`text-white transition-[bottom] duration-500 group-hover:bottom-[23px] left-4 max-w-[20rem]  z-[2] absolute bottom-[-100px] hidden sm:flex flex-col gap-1`
