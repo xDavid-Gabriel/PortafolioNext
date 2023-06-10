@@ -24,8 +24,8 @@ export const SectionInfo = () => {
           <Image
             width={600}
             height={600}
-            src="https://i.postimg.cc/q7r0Q7q6/about-us.png"
-            alt="Fografia"
+            src="/img/sobre-mi/about-us.webp"
+            alt="Fotografia"
           />
         </figure>
         <St.Flex>
